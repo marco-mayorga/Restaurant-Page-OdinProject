@@ -10,7 +10,10 @@ module.exports = {
     },
     plugins: [
         new CopyPlugin({
-            patterns: [{ from: "src/imgs", to: "dest" }],
+            patterns: [
+                { from: "src/imgs", to: "dest" },
+                { from: "src/styles.css", to: "dest" },
+            ],
         }),
     ],
     output: {
