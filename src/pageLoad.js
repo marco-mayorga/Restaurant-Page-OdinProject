@@ -4,7 +4,7 @@ const pageLoad = (() => {
 
     nav.innerHTML = `
             <ul class="tabs">
-                <div id="name-of-store">Taco Shack</div>
+                <div id="name-of-store" class="tab">Taco Shack</div>
                 <img
                     id="logo"
                     src="./dest/tacoFullSize.png"
