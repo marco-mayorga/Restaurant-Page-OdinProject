@@ -84,6 +84,7 @@
     background-color: var(--second-color);
     color: var(--accent-color);
     font-size: 1rem;
+    cursor: pointer;
 }
 
 /* Home End */
